@@ -1,6 +1,3 @@
 ---
 - include: playbooks/package.yaml
-- include: playbooks/service.yaml
-  
- 
-    
+- include: playbooks/service.yaml 

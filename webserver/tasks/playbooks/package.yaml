@@ -1,4 +1,4 @@
 - name: install web server
-    yum:
-     name: httpd
-     state: latest
+  yum:
+   name: httpd
+   state: latest
