@@ -1,0 +1,4 @@
+- name: starting the webserver
+   service:
+    name: httpd
+    state: started
