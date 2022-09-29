@@ -1,2 +1,3 @@
 package_name: httpd
 package_state: latest
+http_port: 80

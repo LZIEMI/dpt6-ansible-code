@@ -1,5 +1,5 @@
 - name: copy httpd.conf
-  copy:
+  template:
    src: httpd.conf 
    dest: /etc/httpd/conf/
    owner: root
