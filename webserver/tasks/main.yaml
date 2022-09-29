@@ -2,4 +2,3 @@
 - include: playbooks/package.yaml
 - include: playbooks/copy_index.yaml
 - include: playbooks/copy_conf.yaml
-- include: playbooks/service.yaml 
