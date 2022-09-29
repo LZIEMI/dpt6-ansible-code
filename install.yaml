@@ -1,12 +1,6 @@
 ---
 - hosts: dev
-  tasks:
-  - name: install web server
-    yum:
-     name: httpd
-     state: latest
-  - name: starting the webserver
-    service:
-     name: httpd
-     state: started 
+  roles:
+   - role: webserver
+
     
